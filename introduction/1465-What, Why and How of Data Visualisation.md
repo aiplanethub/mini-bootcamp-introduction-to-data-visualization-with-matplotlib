@@ -1,4 +1,4 @@
-# What, Why and How of Data Visualisation
+# What, Why, and How of Data Visualisation
 
 ### Learning Objectives
 
@@ -9,9 +9,9 @@
 
 ### What is Data Visualisation?
 
-Data Visualization is the representation of data or information in a graph, chart, or other visual format.
+Data Visualization represents data or information in a graph, chart, or other visual formats.
 
-It communicates relationships of the data with images. 
+It communicates the relationships of the data with images. 
 
 
 
@@ -24,15 +24,15 @@ It communicates relationships of the data with images.
 
 ### **Why Data Visualisation?**
 
-A visual summary of information makes it easier to identify patterns, trends and outliers than looking through thousands of rows on a spreadsheet. 
+A visual summary of information makes identifying patterns, trends, and outliers easier than looking through thousands of rows on a spreadsheet. 
 
 It’s the way the human brain works. 
 
-Since the purpose of data analysis is to gain insights, data is much more valuable when it is visualized. 
+Since data analysis aims to gain insights, data is much more valuable when visualized. 
 
 ### “A picture is worth a thousand words”
 
-Our eyes are drawn to colors and patterns. We can quickly identify red from blue, square from circle. Our culture is visual, including everything from art and advertisements to TV and movies.
+Our eyes are drawn to colors and patterns. We can quickly differentiate red from blue and a square from a circle. Our culture is visual, including everything from art and advertisements to TV and movies.
 
 Data visualization is another form of visual art that grabs our interest and keeps our eyes on the message. 
 
@@ -40,7 +40,7 @@ Data visualization is another form of visual art that grabs our interest and kee
 
 ### **Google Map Traffic visualization**
 
-The live traffic status in Google map is another simple example of what is possible through data visualization to make our life simple and easy. You can see the red colour indicating slow traffic area in the city on the map and blue colour indicating fast etc.
+The live traffic status in Google Maps is another simple example of what is possible through data visualization to make our life simple and easy. You can see the red color indicating slow traffic area in the city on the map and the blue color indicating fast etc.
 
 
 
@@ -51,13 +51,13 @@ The live traffic status in Google map is another simple example of what is possi
 
 
 
-### Hard Disk Drives interactive Data Visualization
+### Hard Disk Drives: Interactive Data Visualization
 
-The blue line and empty space in horizontal bar and the pie chart are examples to inform us about the consumed and free space in hard disk. 
+The blue line and empty space in the horizontal bar and the pie chart are visualizations of the consumed and free space in the hard disk. 
 
-Hard drives data status in interactive visualization makes it easy to understand even for a normal user. 
+The hard drive’s data status in interactive visualization makes it easy to understand even for an average user. 
 
-And that’s always the objective of data visualization - to make it very easy and relevant for people to understand the data and take a quick decision.
+And that’s always the objective of data visualization - to make it easy and relevant for people to understand the data and make a quick decision.
 
 
 
@@ -73,11 +73,11 @@ And that’s always the objective of data visualization - to make it very easy a
 
 
 
-### Geo Spatial Data Visualization
+### Geo-Spatial Data Visualization
 
-Geospatial visualizations are one of the earliest forms of information visualizations.
+Geospatial visualizations are one of the earliest forms of information visualization.
 
-Amongst the various types of geospatial visualisations, Heat maps are useful when you have to represent large sets of continuous data on a map using a color spectrum.
+Amongst the various types of geospatial visualizations, Heat maps are useful when you have to represent large sets of continuous data on a map using a color spectrum.
 
 This map of India shows the average annual rainfall using different shades of blue. The darker the shade of blue, the higher the rainfall.
 
@@ -101,7 +101,7 @@ Can you think of more such examples?
 
 ### Data Visualisation in Python
 
-Python offers multiple great graphing libraries that come packed with lots of different functionalities. No matter if you want to create interactive, live, or highly customized plots, python has an excellent library for you.
+Python offers multiple great graphing libraries packed with many different functionalities. Whether you want to create interactive, live, or highly customized plots, Python has an excellent library for you.
 
 To get a little overview, here are a few popular plotting libraries:
 
@@ -113,4 +113,4 @@ To get a little overview, here are a few popular plotting libraries:
 * Bokeh
 * Altair
 
-In this course, we'll be focusing mainly on Matplotlib, one of the most popular tools for graphs and plots in Python.
+This course will focus mainly on Matplotlib, one of Python’s most popular tools for graphs and plots.
