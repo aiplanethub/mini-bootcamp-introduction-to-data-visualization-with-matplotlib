@@ -39,7 +39,7 @@ To adjust the color, you can use the color keyword, which accepts a string argum
 
 Matplotlib will automatically cycle through a set of default colors for multiple lines if no color is specified.
 
-### 2. Changing Line Styles
+### Changing Line Styles
 
 Similarly, the line style can be adjusted using the linestyle keyword. You can make the lines dashed, dotted, or both.
 
