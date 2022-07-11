@@ -86,7 +86,7 @@ Adding markers to a line plot can be a useful way to distinguish multiple lines 
 
 
 
-### Combining the three formatting options
+## Combining the three formatting options
 
 Let's plot a red dashed line with triangular markers!
 
