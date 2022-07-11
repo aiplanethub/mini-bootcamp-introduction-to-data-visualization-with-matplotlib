@@ -8,9 +8,9 @@
 
 ### Importing libraries
 
-All Python capabilities are not loaded to our working environment by default (even if they are already installed in your system). So, we import each and every library that we want to use.
+All Python capabilities are not loaded to our working environment by default (even if they are already installed in your system). So, we must import every library that we want to use.
 
-We’ll import numpy, pandas and matplotlib with their respective aliases: **np, pd and plt.**
+We'll import numpy, pandas, and matplotlib with their respective aliases: **np, pd, and plt.**
 
 
 
@@ -30,9 +30,9 @@ We’ll import numpy, pandas and matplotlib with their respective aliases: **np,
 
 **Dataset Description:**
 
-* It contains data of 99 standard metropolitan areas in the US i.e. 99 row entries.
-* The dataset provides information on 11 variables for each area for the period 1976-1977.
-* The areas have been divided into 4 geographic regions: 1=North-East, 2=North-Central, 3=South, 4=West.
+* It contains data of 99 standard metropolitan areas in the US, i.e., 99 rows.
+* The dataset provides information on 11 variables for each area from 1976-1977.
+* The areas have been divided into four geographic regions: 1=North-East, 2=North-Central, 3=South, 4=West.
 * The variables provided are listed in the table below:
 
 
@@ -55,7 +55,7 @@ The problem objective is to find the crime rate of each area.
 
 ### Loading the dataset
 
-For loading the dataset, we’ll use the Pandas **read_csv** method.
+For loading the dataset, we'll use the Pandas **read_csv** method.
 
 Here's the CSV of the dataset: [Standard Metropolitan Areas Dataset](https://raw.githubusercontent.com/dphi-official/Datasets/master/Standard_Metropolitan_Areas_Data-data.csv)
 
