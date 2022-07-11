@@ -53,7 +53,7 @@ We'll import numpy, pandas, and matplotlib with their respective aliases: **np, 
 
 The problem objective is to find the crime rate of each area.
 
-### Loading the dataset
+## Loading the dataset
 
 For loading the dataset, we'll use the Pandas **read_csv** method.
 
