@@ -1,12 +1,12 @@
 # Setting Things Up
 
-### Learning Objectives
+## Learning Objectives
 
 * Importing Libraries
 * About the Dataset
 * Loading the dataset
 
-### Importing libraries
+## Importing libraries
 
 All Python capabilities are not loaded to our working environment by default (even if they are already installed in your system). So, we must import every library that we want to use.
 
@@ -24,11 +24,11 @@ We'll import numpy, pandas, and matplotlib with their respective aliases: **np, 
 
 
 
-### About the Dataset
+## About the Dataset
 
-**Dataset Name:** Standard Metropolitan Dataset
+#### Dataset Name: Standard Metropolitan Dataset
 
-#### Dataset Description
+### Dataset Description
 
 * It contains data of 99 standard metropolitan areas in the US, i.e., 99 rows.
 * The dataset provides information on 11 variables for each area from 1976-1977.
