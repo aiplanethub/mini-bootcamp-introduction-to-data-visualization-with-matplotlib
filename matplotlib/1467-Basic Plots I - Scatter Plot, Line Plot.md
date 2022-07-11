@@ -1,8 +1,8 @@
 # Basic Plots
 
-* The terms Plot, Chart and Graph partly overlap, they are used somewhat loosely, and in that overlap there isn't really any significant difference that you need to know right now.
-* Therefore, there’s no need to be confused if you find Bar Plot, Bar Graph and Bar Chart being used interchangeably at places.
-* Let’s have a look at the commonly used plots in Matplotlib now.
+* The terms Plot, Chart, and Graph partly overlap, they are used somewhat loosely, and in that overlap, there isn't any significant difference you need to know right now.
+* Therefore, there's no need to be confused if you find Bar Plot, Bar Graph, and Bar Chart being used interchangeably at places.
+* Let's look at the commonly used plots in Matplotlib now.
 
 
 
@@ -35,7 +35,7 @@
 
 
 
-### **Creating a Scatter Plot**
+### Creating a Scatter Plot
 
 To create a scatter plot in Matplotlib we can use the .scatter() method:
 
@@ -52,16 +52,16 @@ To create a scatter plot in Matplotlib we can use the .scatter() method:
 
 
 
-### **Is plt.show( ) always required?**
+### Is plt.show( ) always required?
 
 You might’ve observed the line plt.show( ) after the plt.scatter( ). Is it necessary to use?
 
-* If Matplotlib is used in a terminal, scripts or specialized IDEs such as Spyder, Pycharm or VS Code, plt.show() is a must.
+* If Matplotlib is used in a terminal, scripts, or specialized IDEs such as Spyder, Pycharm, or VS Code, plt.show() is a must.
 * If Matplotlib is used in an iPython shell or a notebook as Jupyter Notebook or Colab Notebook, plt.show\(\) is usually unnecessary.
 
-The plt.show() command does a lot under the hood, as it must interact with your system's interactive graphical backend. The details of this operation can vary greatly from system to system and even installation to installation, but matplotlib does its best to hide all these details from you.
+The plt.show() command does a lot under the hood, as it must interact with your system's interactive graphical backend. The details of this operation can vary significantly from system to system and even installation to installation, but matplotlib does its best to hide all these details from you.
 
-In the following cell we are executing the same script as above, removing the plt.show() instruction:
+In the next cell, we are executing the same script as above, removing the plt.show() instruction:
 
 
 
@@ -72,14 +72,14 @@ In the following cell we are executing the same script as above, removing the pl
 
 
 
-If you want to prevent this from being included as a cell output, use plt.show() at the end of each plotting instruction.
+To prevent this from being included as a cell output, use plt.show() at the end of each plotting instruction.
 
-### **Applications of Scatter Plot**
+### Applications of Scatter Plot
 
 * A scatter plot can be useful for identifying other patterns in data.
 * We can divide data points into groups based on how closely sets of points cluster together.
-* Scatter plots can also show if there are any unexpected gaps in the data and if there are any outlier points. (Look at the 2 points away from rest of the data in the scatter plot. Those are outliers.)
-* This can be useful if we want to segment the data into different parts, like categorising users into different groups.
+* Scatter plots can also show if there are any unexpected gaps in the data and if there are any outlier points. (Look at the 2 points away from the rest of the data in the scatter plot. Those are outliers.)
+* This can be useful if we want to segment the data into different parts, like categorizing users into groups.
 
 
 
@@ -88,12 +88,12 @@ If you want to prevent this from being included as a cell output, use plt.show()
 
 ### What is Line Plot?
 
-A line chart is used to represent data over a continuous time span. It is generally used to show trend of a variable over time. Data values are plotted as points that are connected using line segments.
+A line chart is used to represent data over a continuous period. It is generally used to show the trend of a variable over time. Data values are plotted as points that are connected using line segments.
 
-### Creating a Line Plot (with 2 arguments)
+### Creating a Line Plot (with two arguments)
 
-* In Matplotlib we can create a line chart by calling the plot method.
-* plot() is a versatile command, and can take an arbitrary number of arguments.
+* In Matplotlib, we can create a line chart by calling the plot method.
+* plot() is a versatile command and can take an arbitrary number of arguments.
 
 
 
@@ -110,9 +110,9 @@ A line chart is used to represent data over a continuous time span. It is genera
 
 
 
-Because it is a line chart, matplotlib automatically draws a line to connect each pair of consecutive points that represent coordinates on the graph.
+Because it is a line chart, matplotlib automatically draws a line to connect each pair of consecutive points.
 
-### **Creating a Line Plot (with a single argument)**
+### Creating a Line Plot (with a single argument)
 
 * We can make a graph with a simple line of code as mentioned in the image:
 
@@ -134,13 +134,13 @@ Because it is a line chart, matplotlib automatically draws a line to connect eac
 
 
 
-* You may be wondering why the x-axis ranges from 0-3 and the y-axis from 1-4.
-* If you provide a list of n elements to the .plot() function, matplotlib will assume it is a sequence of  y  values, and automatically generates the  x  values for you as a range of n elements starting from 0. 
-* Since python ranges start with 0, the default list x  has the same length as  y . Hence the  x  data will be [0,1,2,3]. (Length same as y(4) but starts from 0 instead).
+* You may wonder why the x-axis ranges from 0-3 and the y-axis from 1-4.
+* If you provide a list of n elements to the .plot() function, matplotlib will assume it is a sequence of y-values and automatically generates the x-values for you as a range of n elements starting from 0. 
+* Since python ranges start with 0, the default list x has the same length as y. Hence the x data will be [0,1,2,3]. (Length same as y(4) but starts from 0 instead).
 
 ### Applications of Line Plot
 
-Using a line chart one can see the pattern of any dependent variable over time like share price, weather recordings (like temperature, precipitation or humidity), etc. 
+Using a line chart, one can see the pattern of any dependent variable over time like share price, weather recordings (like temperature, precipitation, or humidity), etc. 
 
 Let's look at an example of the graphical representation of Netflix Paid Subscriber Count growth from 2012 to 2018:
 
