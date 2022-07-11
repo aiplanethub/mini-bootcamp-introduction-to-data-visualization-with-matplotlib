@@ -10,7 +10,7 @@
 
 
 
-# Scatter Plot
+## Scatter Plot
 
 ### What is Scatter Plot?
 
