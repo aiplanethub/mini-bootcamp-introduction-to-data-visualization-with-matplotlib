@@ -4,15 +4,15 @@
 
 * Why Pyplot formatting?
 * Plotting consecutive graphs
-* Combining the 2 plots into 1
+* Combining two plots into one
 
 
 
 ### Pyplot Formatting
 
-Tired of those plain, boring graphs? Want them to convey more information at once? This is the perfect module for you then!
+Are you tired of those plain, boring graphs? Want them to convey more information at once? Then this module is perfect for you!
 
-We’ll be working on the same dataset i.e. on the [Standard Metropolitan Data](https://raw.githubusercontent.com/dphi-official/Datasets/master/Standard_Metropolitan_Areas_Data-data.csv).
+We'll be working on the same dataset, i.e., on the [Standard Metropolitan Data](https://raw.githubusercontent.com/dphi-official/Datasets/master/Standard_Metropolitan_Areas_Data-data.csv).
 
 ### Plotting consecutive plots using Matplotlib
 
@@ -34,7 +34,7 @@ Plotting data on multiple consecutive figures can be done by calling the corresp
 
 
 
-### Combining the 2 plots into 1
+### Combining two plots into one
 
 What happens if you don't use plt.show() after the first figure? Both variables will be plotted in the same figure:
 
