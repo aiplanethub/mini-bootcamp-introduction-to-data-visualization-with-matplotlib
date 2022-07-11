@@ -22,7 +22,7 @@ It communicates the relationships of the data with images.
 
 
 
-### **Why Data Visualisation?**
+### Why Data Visualisation?
 
 A visual summary of information makes identifying patterns, trends, and outliers easier than looking through thousands of rows on a spreadsheet. 
 
