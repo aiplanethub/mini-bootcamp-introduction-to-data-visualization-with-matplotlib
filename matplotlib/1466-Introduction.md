@@ -42,7 +42,7 @@
 
 
 
-### **Pyplot**
+### Pyplot
 
 The most used module of Matplotlib is Pyplot which is Matplotlib's plotting framework. 
 
