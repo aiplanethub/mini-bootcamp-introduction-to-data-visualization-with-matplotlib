@@ -2,14 +2,14 @@
 
 ### Multiple Plots in 1 Figure
 
-* We can make multiple graphics in one figure. This goes very well for comparing charts or for sharing data from several types of charts easily with a single image.
+* We can make multiple graphics in one figure. This goes very well for comparing charts or sharing data from several types of charts easily with a single image.
 
-* The .subplot() method is used to add multiple plots in one figure. It takes three arguments:
+* The .subplot() method adds multiple plots in one figure. It takes three arguments:
   * nrows: number of rows in the figure
   * ncols: number of columns in the figure
   * index: index of the plot
 
-* Let's see how variables are plotted with different row and column configurations in the figures.
+* Let's see how the figures plot variables with different row and column configurations.
 
 * The function subplot creates a figure and a set of subplots. It is a wrapper function to make it convenient to create common layouts of subplots, including the enclosing figure object, in a single call.
 
@@ -21,7 +21,7 @@
 
 ### Changing Plot Size
 
-If we call the subplot function without any parameters - like we do in the following example - a Figure object and one Axes object will be returned:
+If we call the subplot function without any parameters - as we do in the following example - it returns a Figure object and one Axes object:
 
 
 
@@ -56,7 +56,7 @@ If we call the subplot function without any parameters - like we do in the follo
 
 
 
-### **1 row and 2 columns - Method 2**
+### 1 row and 2 columns - Method 2
 
 
 
@@ -79,7 +79,7 @@ If we call the subplot function without any parameters - like we do in the follo
 
 * Aren't those overlapping axis values annoying? Matplotlib has a solution for that too.
 
-* Simply put sharey=True inside the subplot function. The two subplots will now share the y axis values.
+* Put sharey=True inside the subplot function. The two subplots will now share the y-axis values.
 
 * Try it out!
 
