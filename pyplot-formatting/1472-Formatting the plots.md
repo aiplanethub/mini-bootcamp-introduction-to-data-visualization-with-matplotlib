@@ -5,22 +5,22 @@
 * Changing Colors
 * Changing line-styles
 * Adding Markers
-* Combining the 3 formatting options
+* Combining the three formatting options
 
 
 
 ## Formatting Plots
 
 * The first adjustment you might wish to make to a plot is to control the line colors and styles.
-* Look at all the above graphs you’ve created till now. What is the color and style of the plots where it is not explicitly specified? 
-* **All blue solid lines. Blue solid line is thus the default formatting style.**
-* The plt.plot() function takes additional arguments that can be used to specify the formatting.
-* You've already specified the colour of a few plots before using the 'color' argument. Colours can be provided in a number of ways apart from that.
+* Look at all the above graphs you've created till now. What is the color and style of the plots where it is not explicitly specified? 
+* **All solid blue lines. A solid blue line is the default formatting style in Matplotlib.**
+* The plt.plot() function takes additional arguments that we can use to specify the formatting.
+* You've already specified the color of a few plots before using the 'color' argument. Colors can be provided in a few other ways as well.
 
 
 
 
-### 1. Changing Colours
+### Changing Colours
 
 To adjust the color, you can use the color keyword, which accepts a string argument representing virtually any imaginable color. The color can be specified in a variety of ways:
 
@@ -37,11 +37,11 @@ To adjust the color, you can use the color keyword, which accepts a string argum
 
 
 
-If no color is specified, Matplotlib will automatically cycle through a set of default colors for multiple lines.
+Matplotlib will automatically cycle through a set of default colors for multiple lines if no color is specified.
 
 ### 2. Changing Line Styles
 
-Similarly, the line style can be adjusted using the linestyle keyword. You can make the lines dashed, dotted or a combination of both.
+Similarly, the line style can be adjusted using the linestyle keyword. You can make the lines dashed, dotted, or both.
 
 
 
@@ -62,9 +62,9 @@ Similarly, the line style can be adjusted using the linestyle keyword. You can m
 
 
 
-### 3. Adding Markers
+### Adding Markers
 
-So you've plotted lines that pass through the points in the dataset. But we can't really see those points in the lines above, can we?
+So you've plotted lines that pass through the points in the dataset. But we can't see those points in the lines above, can we?
 
 Adding markers to a line plot can be a useful way to distinguish multiple lines or to highlight particular data points. 
 
@@ -86,7 +86,7 @@ Adding markers to a line plot can be a useful way to distinguish multiple lines 
 
 
 
-### Combining the 3 formatting options
+### Combining the three formatting options
 
 Let's plot a red dashed line with triangular markers!
 
@@ -106,7 +106,7 @@ Let's plot a red dashed line with triangular markers!
 
 ### Shortcut for above
 
-For every x, y pair of arguments, there is an optional third argument which is the format string that indicates the color and line type of the plot. The letters and symbols of the format string are from MATLAB, and you concatenate a color string with a line style string. The default format string is 'b-', which is a solid blue line.
+For every x, y pair of arguments, there is an optional third argument: the format string that indicates the color and line type of the plot. The letters and symbols of the format string are from MATLAB, and you concatenate a color string with a line-style string. The default format string is 'b-', a solid blue line.
 
 These linestyle and color codes can be combined into a single non-keyword argument to the plt.plot() function:
 
@@ -122,7 +122,7 @@ These linestyle and color codes can be combined into a single non-keyword argume
 
 
 
-### Scatter Plot with plot function
+### Scatter Plot with the plot function
 
 It turns out that the plot function can produce scatter plots as well. Just don't mention any linestyle.
 
