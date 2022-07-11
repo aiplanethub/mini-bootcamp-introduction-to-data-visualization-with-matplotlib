@@ -84,7 +84,7 @@ To prevent this from being included as a cell output, use plt.show() at the end 
 
 
 
-# Line Plot
+## Line Plot
 
 ### What is Line Plot?
 
