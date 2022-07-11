@@ -217,7 +217,7 @@ Histograms are a great way to show results of continuous data, such as:
 * height
 * how much time etc.
 
-But we should use a Bar Chart when the data is in categories (such as Country or Favorite Movie). Have a look at the next part describing the difference between histogram and bar chart:
+But we should use a Bar Chart when the data is in categories (such as Country or Favorite Movie). Have a look at the below picture describing the difference between histogram and bar chart:
 
 
 
