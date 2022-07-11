@@ -267,7 +267,7 @@ But we should use a Bar Chart when the data is in categories (such as Country or
 
 We can also pass in arguments to customize our Pie chart to show a shadow, explode a part of it, tilt it at an angle or do many other exciting things!
 
-**Don't get overwhelmed with the terms being used; it'll be all clear in the below section.**
+**Don't get overwhelmed with the terms being used; it will all be clear in the below section.**
 
 ### Creating a Pie Chart
 
